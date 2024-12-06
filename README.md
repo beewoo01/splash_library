@@ -1,4 +1,4 @@
-# login_library
+# splash_library
 
 A new Flutter project.
 

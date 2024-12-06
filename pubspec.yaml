@@ -1,4 +1,4 @@
-name: login_library
+name: splash_library
 description: "A reusable splash screen for Flutter apps."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

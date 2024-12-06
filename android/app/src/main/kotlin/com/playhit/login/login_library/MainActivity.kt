@@ -1,4 +1,4 @@
-package com.playhit.login.login_library
+package com.playhit.splash.splash_library
 
 import io.flutter.embedding.android.FlutterActivity
 
