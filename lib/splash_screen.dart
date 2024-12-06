@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
   final Color backgroundColor; // 배경색
-  final ImageProvider image; // 로고 이미지
+  final Image image; // 로고 이미지
   final Duration animationDuration; // 애니메이션 지속 시간 (옵션)
   final Duration stayDuration; // 스플래쉬 화면 표시 시간 (옵션)
   final VoidCallback? onComplete; // 완료 후 실행할 콜백
@@ -60,11 +60,7 @@ class _SplashScreenState extends State<SplashScreen>
       body: Center(
         child: FadeTransition(
           opacity: _animation,
-          child: Image(
-            image: widget.image,
-            width: 150,
-            height: 150,
-          ),
+          child: widget.image
         ),
       ),
     );
